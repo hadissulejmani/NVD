@@ -1,10 +1,12 @@
 html {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   background-color: #333;
   height: 100%;
-  display: flex; }
+  display: flex;
+}
 
 .block,
 .block2 {
@@ -14,19 +16,55 @@ body {
   padding: 20px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.6s, transform 0.6s;
-  width: 30vw; }
-  .block:hover,
-  .block2:hover {
-    transform: translate3d(-10px, -10px, 0); }
+  width: 30vw;
+}
+.block:hover,
+.block2:hover {
+  transform: translate3d(-10px, -10px, 0);
+}
 
 .block {
-  background-color: #00bbcc; }
-  .block:hover {
-    box-shadow: 1px 1px 0 #02b9ca, 2px 2px 0 #04b8c8, 3px 3px 0 #06b6c6, 4px 4px 0 #08b4c4, 5px 5px 0 #0ab3c2, 6px 6px 0 #0cb1c0, 7px 7px 0 #0eafbe, 8px 8px 0 #10adbc, 9px 9px 0 #12acba, 10px 10px 0 #14aab8, 11px 11px 0 #16a8b6, 12px 12px 0 #18a7b4, 13px 13px 0 #1ba5b1, 14px 14px 0 #1da3af, 15px 15px 0 #1fa2ad, 16px 16px 0 #21a0ab, 17px 17px 0 #239ea9, 18px 18px 0 #259ca7, 19px 19px 0 #279ba5, 20px 20px 0 #2999a3, 21px 21px 0 #2b97a1, 22px 22px 0 #2d969f, 23px 23px 0 #2f949d, 24px 24px 0 #31929b, 25px 25px 0 #339199, 26px 26px 0 #358f97, 27px 27px 0 #378d95, 28px 28px 0 #398b93, 29px 29px 0 #3b8a91, 30px 30px 0 #3d888f, 31px 31px 0 #3f868d, 32px 32px 0 #41858b, 33px 33px 0 #438389, 34px 34px 0 #458187, 35px 35px 0 #478085, 36px 36px 0 #497e83, 37px 37px 0 #4b7c81, 38px 38px 0 #4e7a7e, 39px 39px 0 #50797c, 40px 40px 0 #52777a, 41px 41px 0 #547578, 42px 42px 0 #567476, 43px 43px 0 #587274, 44px 44px 0 #5a7072, 45px 45px 0 #5c6f70, 46px 46px 0 #5e6d6e, 47px 47px 0 #606b6c, 48px 48px 0 #62696a, 49px 49px 0 #646868, 50px 50px 0 #666666; }
+  background-color: #00bbcc;
+}
+.block:hover {
+  box-shadow: 1px 1px 0 rgba(0, 184, 204, 0.98),
+    2px 2px 0 rgba(0, 180, 204, 0.96), 3px 3px 0 rgba(0, 177, 204, 0.94),
+    4px 4px 0 rgba(0, 173, 204, 0.92), 5px 5px 0 rgba(0, 170, 204, 0.9),
+    6px 6px 0 rgba(0, 167, 204, 0.88), 7px 7px 0 rgba(0, 163, 204, 0.86),
+    8px 8px 0 rgba(0, 160, 204, 0.84), 9px 9px 0 rgba(0, 156, 204, 0.82),
+    10px 10px 0 rgba(0, 153, 204, 0.8), 11px 11px 0 rgba(0, 150, 204, 0.78),
+    12px 12px 0 rgba(0, 146, 204, 0.76), 13px 13px 0 rgba(0, 143, 204, 0.74),
+    14px 14px 0 rgba(0, 139, 204, 0.72), 15px 15px 0 rgba(0, 136, 204, 0.7),
+    16px 16px 0 rgba(0, 133, 204, 0.68), 17px 17px 0 rgba(0, 129, 204, 0.66),
+    18px 18px 0 rgba(0, 126, 204, 0.64), 19px 19px 0 rgba(0, 122, 204, 0.62),
+    20px 20px 0 rgba(0, 119, 204, 0.6), 21px 21px 0 rgba(0, 116, 204, 0.58),
+    22px 22px 0 rgba(0, 112, 204, 0.56), 23px 23px 0 rgba(0, 109, 204, 0.54),
+    24px 24px 0 rgba(0, 105, 204, 0.52), 25px 25px 0 rgba(0, 102, 204, 0.5),
+    26px 26px 0 rgba(0, 99, 204, 0.48), 27px 27px 0 rgba(0, 95, 204, 0.46),
+    28px 28px 0 rgba(0, 92, 204, 0.44), 29px 29px 0 rgba(0, 88, 204, 0.42),
+    30px 30px 0 rgba(0, 85, 204, 0.4), 31px 31px 0 rgba(0, 82, 204, 0.38),
+    32px 32px 0 rgba(0, 78, 204, 0.36), 33px 33px 0 rgba(0, 75, 204, 0.34),
+    34px 34px 0 rgba(0, 71, 204, 0.32), 35px 35px 0 rgba(0, 68, 204, 0.3),
+    36px 36px 0 rgba(0, 65, 204, 0.28), 37px 37px 0 rgba(0, 61, 204, 0.26),
+    38px 38px 0 rgba(0, 58, 204, 0.24), 39px 39px 0 rgba(0, 54, 204, 0.22),
+    40px 40px 0 rgba(0, 51, 204, 0.2), 41px 41px 0 rgba(0, 48, 204, 0.18),
+    42px 42px 0 rgba(0, 44, 204, 0.16), 43px 43px 0 rgba(0, 41, 204, 0.14),
+    44px 44px 0 rgba(0, 37, 204, 0.12), 45px 45px 0 rgba(0, 34, 204, 0.1),
+    46px 46px 0 rgba(0, 31, 204, 0.08), 47px 47px 0 rgba(0, 27, 204, 0.06),
+    48px 48px 0 rgba(0, 24, 204, 0.04), 49px 49px 0 rgba(0, 20, 204, 0.02),
+    50px 50px 0 rgba(0, 17, 204, 0);
+}
 
 .block2 {
-  background-color: #f50; }
-  .block2:hover {
-    box-shadow: 10px 10px 0 #f2590d, 20px 20px 0 #e65e1a, 30px 30px 0 #d96226, 40px 40px 0 #cc6633, 50px 50px 0 #bf6a40, 60px 60px 0 #b36f4d, 70px 70px 0 #a67359, 80px 80px 0 #997766, 90px 90px 0 #8c7b73, 100px 100px 0 gray; }
+  background-color: #f50;
+}
+.block2:hover {
+  box-shadow: 10px 10px 0 rgba(255, 89, 0, 0.9),
+    20px 20px 0 rgba(255, 94, 0, 0.8), 30px 30px 0 rgba(255, 98, 0, 0.7),
+    40px 40px 0 rgba(255, 102, 0, 0.6), 50px 50px 0 rgba(255, 106, 0, 0.5),
+    60px 60px 0 rgba(255, 111, 0, 0.4), 70px 70px 0 rgba(255, 115, 0, 0.3),
+    80px 80px 0 rgba(255, 119, 0, 0.2), 90px 90px 0 rgba(255, 123, 0, 0.1),
+    100px 100px 0 rgba(255, 128, 0, 0);
+}
 
 /*# sourceMappingURL=style.css.map */
