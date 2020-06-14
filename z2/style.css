@@ -1,0 +1,32 @@
+html {
+  height: 100%; }
+
+body {
+  background-color: #333;
+  height: 100%;
+  display: flex; }
+
+.block,
+.block2 {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  margin: auto;
+  padding: 20px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.6s, transform 0.6s;
+  width: 30vw; }
+  .block:hover,
+  .block2:hover {
+    transform: translate3d(-10px, -10px, 0); }
+
+.block {
+  background-color: #00bbcc; }
+  .block:hover {
+    box-shadow: 1px 1px 0 #02b9ca, 2px 2px 0 #04b8c8, 3px 3px 0 #06b6c6, 4px 4px 0 #08b4c4, 5px 5px 0 #0ab3c2, 6px 6px 0 #0cb1c0, 7px 7px 0 #0eafbe, 8px 8px 0 #10adbc, 9px 9px 0 #12acba, 10px 10px 0 #14aab8, 11px 11px 0 #16a8b6, 12px 12px 0 #18a7b4, 13px 13px 0 #1ba5b1, 14px 14px 0 #1da3af, 15px 15px 0 #1fa2ad, 16px 16px 0 #21a0ab, 17px 17px 0 #239ea9, 18px 18px 0 #259ca7, 19px 19px 0 #279ba5, 20px 20px 0 #2999a3, 21px 21px 0 #2b97a1, 22px 22px 0 #2d969f, 23px 23px 0 #2f949d, 24px 24px 0 #31929b, 25px 25px 0 #339199, 26px 26px 0 #358f97, 27px 27px 0 #378d95, 28px 28px 0 #398b93, 29px 29px 0 #3b8a91, 30px 30px 0 #3d888f, 31px 31px 0 #3f868d, 32px 32px 0 #41858b, 33px 33px 0 #438389, 34px 34px 0 #458187, 35px 35px 0 #478085, 36px 36px 0 #497e83, 37px 37px 0 #4b7c81, 38px 38px 0 #4e7a7e, 39px 39px 0 #50797c, 40px 40px 0 #52777a, 41px 41px 0 #547578, 42px 42px 0 #567476, 43px 43px 0 #587274, 44px 44px 0 #5a7072, 45px 45px 0 #5c6f70, 46px 46px 0 #5e6d6e, 47px 47px 0 #606b6c, 48px 48px 0 #62696a, 49px 49px 0 #646868, 50px 50px 0 #666666; }
+
+.block2 {
+  background-color: #f50; }
+  .block2:hover {
+    box-shadow: 10px 10px 0 #f2590d, 20px 20px 0 #e65e1a, 30px 30px 0 #d96226, 40px 40px 0 #cc6633, 50px 50px 0 #bf6a40, 60px 60px 0 #b36f4d, 70px 70px 0 #a67359, 80px 80px 0 #997766, 90px 90px 0 #8c7b73, 100px 100px 0 gray; }
+
+/*# sourceMappingURL=style.css.map */
