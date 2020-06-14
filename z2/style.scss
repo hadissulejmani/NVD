@@ -7,8 +7,8 @@
 // $number-of-steps: the number of steps (shades to generate)
 // $current-step: Generate the specific color for  
 @function mod-example($color, $number-of-steps, $current-step) {
-    $x: (100 * $current-step) / $number-of-steps; 
-    @return desaturate($color, $x);
+    $x: $current-step / $number-of-steps; 
+    @return transparentize(adjust-hue($color, $current-step), $x);
 }
 
 
